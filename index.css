@@ -1,0 +1,16 @@
+/* Set the defaults */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    overflow-x: hidden;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
