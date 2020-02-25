@@ -23,8 +23,8 @@ body {
   display: flex;
   padding: 20px 10px;
   height: 200px;
-
 }
+
 .nav-items {
   flex: 0 1 20%;
   background-color: rgb(63, 62, 62);
@@ -38,7 +38,6 @@ body {
   text-align: center;
   padding-top: 50px;
 }
-
 
 .logo {
   margin-left: 4%;
@@ -63,4 +62,73 @@ body {
 
 .nav {
   align-self: center;
+}
+
+.first_sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.first_sec1 {
+  display: grid;
+  background-color: #d4d4d4;
+  height: 700px;
+}
+
+.first_sec2 {
+  background-color: #b4b4b4;
+  height: 700px;
+}
+
+.first_sec3 {
+  background-color: #909090;
+  height: 600px;
+}
+
+.first_sec4 {
+  background-color: #636363;
+  height: 600px;
+}
+
+.miss {
+  z-index: 10;
+}
+
+.latest {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.latest1 {
+  padding: 40px;
+  text-align: justify;
+  height: 500px;
+}
+
+.friends {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.friends1 {
+  text-align: justify;
+  height: 500px;
+  padding-top: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.center {
+  background-color: #373636;
+}
+
+.another {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.another2 {
+  height: 500px;
+  padding: 40px;
 }
