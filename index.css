@@ -31,7 +31,7 @@ body {
   background-color: rgb(63, 62, 62);
   height: 105px;
   align-items: center;
-  font-family: Mija sans-serif serif;
+  font-family: Mija, sans-serif, serif;
   font-size: 23.8762px;
   font-weight: 700;
   line-height: 28.6514px;
@@ -75,8 +75,6 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
-
-
 
 .first_sec1 {
   display: grid;
@@ -145,12 +143,12 @@ body {
   height: 620px;
   width: 49%;
   float: left;
-  
   background-color: rgb(196, 193, 193);
 }
 
 .new-smashingtv {
   border-radius: 10px;
+
   /* margin-bottom: 10px; */
   height: 620px;
   width: 51%;
@@ -159,7 +157,6 @@ body {
 }
 
 .latest_article {
-
   clear: both;
   background-color: rgb(196, 193, 193);
   height: 310px;
@@ -167,13 +164,12 @@ body {
   z-index: -1;
 
   /* padding-top: 0; */
-  /* margin-top: 0; */
 
+  /* margin-top: 0; */
 }
 
 .latest_article .latest_article-para {
   text-transform: uppercase;
   text-decoration: gray;
   text-align: center;
-
 }
