@@ -21,6 +21,7 @@ body {
 
 .nav-bar {
   display: flex;
+  list-style: none;
   padding: 20px 10px;
   height: 200px;
 }
@@ -64,11 +65,18 @@ body {
   align-self: center;
 }
 
+.nav-span {
+  font-style: italic;
+  font-size: 12px;
+}
+
 .first_sec {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
+
+
 
 .first_sec1 {
   display: grid;
@@ -131,4 +139,41 @@ body {
 .another2 {
   height: 500px;
   padding: 40px;
+}
+
+.smashingtv-podcast {
+  height: 620px;
+  width: 49%;
+  float: left;
+  
+  background-color: rgb(196, 193, 193);
+}
+
+.new-smashingtv {
+  border-radius: 10px;
+  /* margin-bottom: 10px; */
+  height: 620px;
+  width: 51%;
+  float: right;
+  background-color: rgb(122, 107, 107);
+}
+
+.latest_article {
+
+  clear: both;
+  background-color: rgb(196, 193, 193);
+  height: 310px;
+  border: 3px solid rgb(196, 193, 193);
+  z-index: -1;
+
+  /* padding-top: 0; */
+  /* margin-top: 0; */
+
+}
+
+.latest_article .latest_article-para {
+  text-transform: uppercase;
+  text-decoration: gray;
+  text-align: center;
+
 }
