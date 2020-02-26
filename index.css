@@ -93,7 +93,6 @@ body {
   font-size: 23.8762px;
 }
 
-
 .main-title-2 {
   text-align: center;
   background-color: white;
@@ -130,7 +129,10 @@ body {
   height: 600px;
 }
 
-.first_sec1 h3, .first_sec2 h3, .first_sec3 h3, .first_sec4 h3 {
+.first_sec1 h3,
+.first_sec2 h3,
+.first_sec3 h3,
+.first_sec4 h3 {
   align-self: center;
   justify-self: center;
 }
@@ -147,18 +149,24 @@ body {
 .latest1 {
   display: grid;
   padding: 40px;
+
   /* text-align: justify; */
+
   /* justify-self: center;
   align-self: center; */
   height: 500px;
 }
 
+footer p {
+  text-align: center;
+}
 
-.latest1.ant1 p, .latest1.ant2 p, .latest1.ant3 p {
+.latest1.ant1 p,
+.latest1.ant2 p,
+.latest1.ant3 p {
   justify-self: center;
   align-self: center;
 }
-
 
 .friends {
   display: grid;
@@ -172,11 +180,14 @@ body {
   padding-left: 40px;
   padding-right: 40px;
 }
-.friends1.ant5 p, .friends1.ant6 p {
+
+.friends1.ant5 p,
+.friends1.ant6 p {
   justify-self: center;
-  align-self: center; 
+  align-self: center;
 }
-.bold-title{
+
+.bold-title {
   font-weight: 1000;
   text-decoration: underline;
 }
@@ -193,10 +204,6 @@ body {
 
 .ant1 {
   background-color: #8b8b8b;
-}
-
-.ant2 {
-  background-color: #959595;
 }
 
 .ant2 {
@@ -327,10 +334,6 @@ body {
 
 .guides-1 {
   grid-column-end: span 2;
-} 
-
-footer p {
-  text-align: center;
 }
 
 footer .footer-italic {
