@@ -299,8 +299,10 @@ footer p {
 
 .pic {
   width: 49%;
+  max-width: 99.17px;
   height: 80px;
   background-color: #333;
+  margin-left: 1%;
 }
 
 .article_text {
