@@ -14,10 +14,15 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   background-color: #a2a2a2;
+  font-family: Mija, sans-serif, serif;
+  font-size: 23.8762px;
+  font-weight: 700;
+  line-height: 28.6514px;
+  color: rgb(248, 244, 244);
 }
 
 .header {
-  background-color: rgb(124, 116, 116);
+  /* background-color: rgb(124, 116, 116); */
 }
 
 .nav-bar {
@@ -75,6 +80,32 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+}
+
+.main-title {
+
+}
+
+.main-title-1 {
+  text-align: center;
+  background-color: white;
+  color: #333;
+  padding: 7px;
+  position: absolute;
+  top: 77%;
+  left: 42.5%;
+}
+
+
+.main-title-2 {
+  text-align: center;
+  background-color: white;
+  color: #333;
+  margin-bottom: -120px;
+  padding: 7px;
+  position: absolute;
+  top: 87%;
+  left: 46.5%;
 }
 
 .first_sec1 {

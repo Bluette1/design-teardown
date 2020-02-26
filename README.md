@@ -18,7 +18,7 @@ This is the fifth project of the Main HTML/CSS curriculum at [Microverse](https:
 
 ## Authors
 
-👤 ****
+👤 
 
 **Caleb Apronti**
 
