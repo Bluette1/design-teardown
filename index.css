@@ -227,7 +227,7 @@ body {
   display: flex;
   width: 49.5%;
   height: 200px;
-  margin: 30px 0;
+  margin: 50px 0;
 }
 
 .pic {
@@ -238,4 +238,29 @@ body {
 
 .article_text {
   padding: 0 15px;
+}
+
+.small_container {
+  width: 300px;
+  height: 50px;
+  background-color: #111;
+  margin: 100px auto;
+}
+
+.big_container {
+  height: 400px;
+  background-color: #777;
+  margin: 0 15px;
+}
+
+.guides_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  margin-top: 5px;
+}
+
+.guides {
+  height: 400px;
+  background-color: #373636;
+  margin: 5px;
 }
